@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/res/merged/debug/menu/menu_items_toolbar.xml",
+        "source": "/home/santiago/AndroidStudioProjects/Libros/app/src/main/res/menu/menu_items_toolbar.xml"
+    },
+    {
+        "merged": "/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/res/merged/debug/menu/menu_xestion_libros.xml",
+        "source": "/home/santiago/AndroidStudioProjects/Libros/app/src/main/res/menu/menu_xestion_libros.xml"
+    }
+]

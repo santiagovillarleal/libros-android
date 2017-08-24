@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:8:5-42:19
+MERGED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/santiago/.android/build-cache/fd306798b5d6c01abd424a53a213cda6d56eafe6/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/santiago/.android/build-cache/af4330615af198b3e807b7c2435bcbc25a05df53/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /home/santiago/.android/build-cache/f162cd16d89f9ab411b1748e87c8fd0686a8d764/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /home/santiago/.android/build-cache/b78f8ad937ce8f74a1c7ca08c3cf20871bd8a195/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /home/santiago/.android/build-cache/32ae2701e455e9bc72b9371c1dfecdb8bc7ef481/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/santiago/.android/build-cache/4e52f1f3a40ea8b8bba99f8bdd18916b61420c6b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/santiago/.android/build-cache/0a05482ab5d7390f9f98df3293e4d48d6c1038a2/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/santiago/.android/build-cache/c4cb82432e480417bdb78aa5cb793ed5bc185a2f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] /home/santiago/.android/build-cache/da18a7dfd0ad7260c741f876480932ab7ca537c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/santiago/.android/build-cache/57442b51d3eb46a0a488a4131e7d89803c531f87/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:11:9-41
+	android:supportsRtl
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:13:9-35
+	android:roundIcon
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:12:9-54
+	android:allowBackup
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:9:9-35
+	android:icon
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:10:9-43
+	android:theme
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:14:9-40
+activity#es.villarleal.libros.MainActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:15:19-67
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:19:27-74
+activity#es.villarleal.libros.vista.alta.AltaLibroActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:22:9-25:78
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:24:13-52
+	android:parentActivityName
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:25:13-75
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:23:13-77
+activity#es.villarleal.libros.vista.alta.AltaAutorActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:26:9-29:78
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:28:13-52
+	android:parentActivityName
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:29:13-75
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:27:13-77
+activity#es.villarleal.libros.vista.alta.AltaEditorialActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:30:9-33:78
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:32:13-56
+	android:parentActivityName
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:31:13-81
+activity#es.villarleal.libros.vista.alta.AltaIdiomaActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:34:9-37:87
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:36:13-53
+	android:parentActivityName
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:37:13-75
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:35:13-78
+activity#es.villarleal.libros.vista.alta.AltaExemplarActivity
+ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:38:9-41:87
+	android:label
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:40:13-42
+	android:parentActivityName
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:41:13-75
+	android:name
+		ADDED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml:39:13-80
+uses-sdk
+INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/santiago/.android/build-cache/fd306798b5d6c01abd424a53a213cda6d56eafe6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/santiago/.android/build-cache/af4330615af198b3e807b7c2435bcbc25a05df53/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/santiago/.android/build-cache/69ce9bc6f6488683f523557f44c4fd0538c26c9a/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /home/santiago/.android/build-cache/f162cd16d89f9ab411b1748e87c8fd0686a8d764/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] /home/santiago/.android/build-cache/b78f8ad937ce8f74a1c7ca08c3cf20871bd8a195/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /home/santiago/.android/build-cache/32ae2701e455e9bc72b9371c1dfecdb8bc7ef481/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/santiago/.android/build-cache/4e52f1f3a40ea8b8bba99f8bdd18916b61420c6b/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/santiago/.android/build-cache/0a05482ab5d7390f9f98df3293e4d48d6c1038a2/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/santiago/.android/build-cache/c4cb82432e480417bdb78aa5cb793ed5bc185a2f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] /home/santiago/.android/build-cache/da18a7dfd0ad7260c741f876480932ab7ca537c6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/santiago/.android/build-cache/57442b51d3eb46a0a488a4131e7d89803c531f87/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+		INJECTED from /home/santiago/AndroidStudioProjects/Libros/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /home/santiago/.android/build-cache/fd306798b5d6c01abd424a53a213cda6d56eafe6/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /home/santiago/.android/build-cache/af4330615af198b3e807b7c2435bcbc25a05df53/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /home/santiago/.android/build-cache/69ce9bc6f6488683f523557f44c4fd0538c26c9a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /home/santiago/.android/build-cache/f162cd16d89f9ab411b1748e87c8fd0686a8d764/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /home/santiago/.android/build-cache/b78f8ad937ce8f74a1c7ca08c3cf20871bd8a195/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /home/santiago/.android/build-cache/32ae2701e455e9bc72b9371c1dfecdb8bc7ef481/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /home/santiago/.android/build-cache/4e52f1f3a40ea8b8bba99f8bdd18916b61420c6b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /home/santiago/.android/build-cache/0a05482ab5d7390f9f98df3293e4d48d6c1038a2/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /home/santiago/.android/build-cache/c4cb82432e480417bdb78aa5cb793ed5bc185a2f/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /home/santiago/.android/build-cache/da18a7dfd0ad7260c741f876480932ab7ca537c6/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.0] /home/santiago/.android/build-cache/8db8fbbff1e845338cfff0f97b9db0eb01b2fcab/output/AndroidManifest.xml:26:9-47

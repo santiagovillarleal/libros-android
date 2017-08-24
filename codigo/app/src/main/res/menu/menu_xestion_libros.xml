@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_xest_libros_libros_id"
+        android:title="@string/item_xest_libros_libros_txt">
+    </item>
+    <item android:id="@+id/item_xest_libros_exemplares_id"
+        android:title="@string/item_xest_libros_exemplares_txt">
+    </item>
+</menu>

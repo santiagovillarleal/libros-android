@@ -1,0 +1,7 @@
+#Thu Apr 27 16:52:53 CEST 2017
+base.0=/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d727a6acbf3e5388ca2b1e388cc8246b969de436
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c933ae6c1fc641825b59d56cb8a1c23c10345dc9/classes.dex
+base.1=/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c933ae6c1fc641825b59d56cb8a1c23c10345dc9
+file.0=/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d727a6acbf3e5388ca2b1e388cc8246b969de436/classes.dex

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/santiago/AndroidStudioProjects/Libros/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/santiago/.android/build-cache/f96a51fffcb7e8d4a133246d8024bdbbcf0fce4f/output/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

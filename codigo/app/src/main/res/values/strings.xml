@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Xestión</string>
+    <string name="lblActAltaLibro">Alta libro</string>
+    <string name="lblActAltaAutor">Alta autor</string>
+    <string name="lblActAltaEditorial">Alta editorial</string>
+    <string name="lblActAltaIdioma">Alta idioma</string>
+    <string name="lblEdicion">Edición</string>
+    <string name="btnMainLibros">Libros</string>
+    <string name="btnMainAutores">Autores</string>
+    <string name="btnMainEditoriais">Editoriais</string>
+    <string name="btnMainIdiomas">Idiomas</string>
+    <string name="txtCodExemplar">Código exemplar: </string>
+    <string name="txtLibro">Libro: </string>
+    <string name="txtTitulo">Título: </string>
+    <string name="txtAutor">Autor: </string>
+    <string name="txtEditorial">Editorial: </string>
+    <string name="txtIdioma">Idioma: </string>
+    <string name="txtEdicion">Edición: </string>
+    <string name="txtNomeAutor">Nome: </string>
+    <string name="txtApelidos">Apelidos: </string>
+    <string name="txtNomeIdioma">Idioma: </string>
+    <string name="txtNomeEditorial">Nome: </string>
+
+    <string name="first">Primeiro</string>
+    <string name="last">Último</string>
+    <string name="hello_world">Hello world</string>
+
+    <!-- Mensaxes de éxito-->
+    <!-- Alta -->
+    <string name="msgAltaIdiomaExito">O idioma gardouse corretamente.</string>
+    <string name="msgAltaEditorialExito">A editorial gardouse corretamente.</string>
+    <string name="msgAltaAutorExito">O autor gardouse corretamente.</string>
+    <string name="msgAltaLibroExito">O libro gardouse corretamente.</string>
+    <string name="msgAltaExemplarExito">O exemplar gardouse corretamente.</string>
+    <!-- Edición -->
+    <string name="msgEdicionIdiomaExito">O idioma editouse corretamente.</string>
+    <string name="msgEdicionEditorialExito">A editorial editouse corretamente.</string>
+    <string name="msgEdicionAutorExito">O autor editouse corretamente.</string>
+    <string name="msgEdicionLibroExito">O libro editouse corretamente.</string>
+    <string name="msgEdicionExemplarExito">O exemplar editouse corretamente.</string>
+    <!-- Borrado -->
+    <string name="msgBorradoElementoExito">O elemento borrouse corretamente.</string>
+    <string name="msgBorradoElementoNonExiste">O elemento non existe.</string>
+
+    <!-- Mensaxes de erro -->
+    <string name="msgAltaIdiomaErroXaExiste">O idioma xa existe.</string>
+    <string name="msgAltaEditorialErroXaExiste">A editorial xa existe.</string>
+    <string name="msgAltaAutorErroXaExiste">O autor xa existe.</string>
+    <string name="msgAltaLibroErroXaExiste">O libro xa existe.</string>
+    <string name="msgAltaExemplarErroXaExiste">O exemplar xa existe.</string>
+
+    <!-- Alta -->
+    <string name="msgAltaIdiomaErroXenerico">Houbo un erro ó gardar o idioma.</string>
+    <string name="msgAltaEditorialErroXenerico">Houbo un erro ó gardar a editorial.</string>
+    <string name="msgAltaAutorErroXenerico">Houbo un erro ó gardar o autor.</string>
+    <string name="msgAltaLibroErrorXenerico">Houbo un erro ó gardar o libro.</string>
+    <string name="msgAltaExemplarErroXenerico">Houbo un erro ó gardar o exemplar.</string>
+    <!-- Edición -->
+    <string name="msgEdicionIdiomaErroXenerico">Houbo un erro ó editar o idioma.</string>
+    <string name="msgEdicionEditorialErroXenerico">Houbo un erro ó editar a editorial.</string>
+    <string name="msgEdicionAutorErroXenerico">Houbo un erro ó editar o autor.</string>
+    <string name="msgEdicionLibroErrorXenerico">Houbo un erro ó editar o libro.</string>
+    <string name="msgEdicionExemplarErroXenerico">Houbo un erro ó editar o exemplar.</string>
+
+    <string name="msgClaseNonAtopada">Clase non atopada</string>
+    <string name="txtGardar">Gardar</string>
+    <!-- Recursos título Menú emerxente -->
+    <string name="item_xest_libros_libros_txt">Libros</string>
+    <string name="item_xest_libros_exemplares_txt">Exemplares</string>
+    <string name="txt_facer_copia">Facer copia BD</string>
+    <string name="txt_exportar_xml">Exportar a XML</string>
+    <string name="txt_exportar_json">Exportar a JSON</string>
+</resources>

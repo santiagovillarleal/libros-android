@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="tam_col_nome">50</integer>
+    <integer name="tam_col_cod_exemplar">50</integer>
+    <integer name="tam_col_edicion">50</integer>
+    <integer name="tam_col_apelidos">50</integer>
+    <integer name="tam_col_titulo">50</integer>
+</resources>

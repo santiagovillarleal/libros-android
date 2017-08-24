@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.villarleal.libros.vista.alta.AltaExemplarActivity">
+
+    <LinearLayout
+        android:id="@+id/lnlLibro"
+        android:layout_width="352dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <TextView
+            android:id="@+id/txtLibro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:elevation="0dp"
+            android:hint="@string/txtLibro" />
+
+        <Spinner
+            android:id="@+id/spnLibros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAltaLibro"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="@dimen/box_size"
+            android:onClick="altaElemento"
+            app:srcCompat="@mipmap/plus_circle_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/lnlLibro"
+        app:layout_constraintRight_toRightOf="@+id/lnlLibro"
+        app:layout_constraintLeft_toLeftOf="@+id/lnlLibro"
+        android:id="@+id/lnlExemplar">
+
+        <TextView
+            android:id="@+id/txtCodExemplar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txtCodExemplar" />
+
+        <EditText
+            android:id="@+id/edtCodExemplar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="@integer/tam_col_cod_exemplar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlEditorial"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/lnlExemplar"
+        app:layout_constraintRight_toRightOf="@+id/lnlExemplar"
+        app:layout_constraintTop_toBottomOf="@+id/lnlExemplar">
+
+        <TextView
+            android:id="@+id/txtEditorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txtEditorial" />
+
+        <Spinner
+            android:id="@+id/spnEditorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAltaEditorial"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="wrap_content"
+            android:onClick="altaElemento"
+            app:srcCompat="@mipmap/plus_circle_outline" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlEdicion"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintRight_toRightOf="@+id/lnlEditorial"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/lnlEditorial"
+        app:layout_constraintLeft_toLeftOf="@+id/lnlEditorial">
+
+        <TextView
+            android:id="@+id/txtEdicion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txtEdicion" />
+
+        <EditText
+            android:id="@+id/edtEdicion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:maxLength="@integer/tam_col_edicion" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlIdioma"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="@+id/lnlEdicion"
+        app:layout_constraintRight_toRightOf="@+id/lnlEdicion"
+        app:layout_constraintTop_toBottomOf="@+id/lnlEdicion">
+
+        <TextView
+            android:id="@+id/txtIdioma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/txtIdioma" />
+
+        <Spinner
+            android:id="@+id/spnIdioma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/imgBtnAltaIdioma"
+            android:layout_width="@dimen/box_size"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:onClick="altaElemento"
+            app:srcCompat="@mipmap/plus_circle_outline" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:hint="@string/txtGardar"
+        android:onClick="gardarExemplar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/lnlIdioma" />
+
+</android.support.constraint.ConstraintLayout>

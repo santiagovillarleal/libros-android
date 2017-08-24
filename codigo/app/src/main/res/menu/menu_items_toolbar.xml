@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_facer_copia"
+        android:orderInCategory="100"
+        android:title="@string/txt_facer_copia"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exportar_xml"
+        android:orderInCategory="200"
+        android:title="@string/txt_exportar_xml"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exportar_json"
+        android:orderInCategory="300"
+        android:title="@string/txt_exportar_json"
+        app:showAsAction="never" />
+</menu>
